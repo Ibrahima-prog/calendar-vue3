@@ -1,19 +1,23 @@
 <template>
   <div id="app">
-  <AppHeader />
+    <AppHeader />
   <div class="w-full flex">
-    <DcHeros />
+    <!-- <DcHeros /> -->
+    <!-- <DcHeros /> -->
+    <MyCalendar />
   </div>
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import AppHeader from "./components/AppHeader";
-import DcHeros from "./components/DcHeros";
+// import DcHeros from "./components/DcHeros";
+import MyCalendar from "./components/MyCalendar";
+// import DcHeros from "./components/DcHeros";
 export default {
-  components: { AppHeader, DcHeros },
-}
+  // components: { AppHeader, DcHeros },
+  components: { AppHeader, MyCalendar },
+};
 </script>
 
 <style>
